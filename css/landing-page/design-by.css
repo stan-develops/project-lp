@@ -1,0 +1,237 @@
+#design-by {
+    margin-top: 100px;
+    position: relative;
+    top: -300px;
+}
+
+#design-by .design-container {
+    position: relative; 
+    background: white; 
+    overflow: hidden; 
+    border-radius: 5px;
+
+}
+
+#design-by .design-container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#design-by .design-container .bg-container{
+    position: relative; 
+    background: #6066F2; 
+    overflow: hidden; 
+    padding: 45px;
+
+}
+
+#design-by .design-container .bg-image {
+    position: absolute;  
+    width: 600px; 
+    z-index: 1;
+    opacity: .3;
+    right: -200px;
+    top: -100px;
+}
+
+
+#design-by .design-container .info-section {
+    width: 40%;
+    display: inline-block;
+    float: left;
+}
+
+#design-by .design-container .info-section h5{  
+    color: #FEA83B;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    position: relative;
+    z-index: 2;
+}
+
+#design-by .design-container .info-section h3{  
+    color: white;
+    font-size: 2.4rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+    z-index: 2;
+}
+
+#design-by .design-container .info-section .info-list{  
+    margin-bottom: 4rem;
+    position: relative;
+    z-index: 2;
+}
+
+
+#design-by .design-container .info-section .info-list li{  
+    list-style: none;
+    color: white;
+    font-size: 1rem;
+    line-height: 2.9;
+    font-weight: 600;
+}
+
+ #design-by .design-container .info-section .info-list .circle{  
+    background: #FEA83B;
+    display: inline-block;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    position: relative;
+    bottom: -10px;
+    vertical-align: top;
+
+}
+
+
+#design-by .design-container .info-section .info-list .circle .fas{
+    position: absolute;
+    top: 5px;
+    right: 4px;
+    font-weight: 500;
+}
+
+#design-by .design-container .info-section .white-btn{
+    background: white;
+    color: #6066F2;
+    padding: 20px 65px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1rem;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+
+}
+
+#design-by .design-container .icons-section {
+    width: 60%;
+    background: white;
+    display: inline-block;
+    float: left;
+    position: relative;
+
+}
+
+/* #design-by .design-container .icons-section::after {
+    content: "";
+    display: table;
+    clear: both;
+} */
+
+#design-by .design-container .icons-section .refresh-circle {
+    position: absolute;
+    top: 41%;
+    left: 45%;
+    width: 80px;
+    height: 80px;
+    background: white;
+    border-radius: 50%;
+}
+
+#design-by .design-container .icons-section .refresh-circle .fas{
+    position: relative;
+    top: 20px;
+    right: -20px;
+    color: #FEA83B;
+    font-size: 2.5rem;
+}
+
+#design-by .design-container .icons-section .icon-box{
+    width: 50%;
+    height: 225px;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    border: 1px solid #f3f7fa;
+    color: #6066F2;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#design-by .design-container .icons-section .icon-box .fas, #design-by .design-container .icons-section .icon-box .far {
+    font-size: 3rem;
+    margin-bottom: 1.7rem;
+    margin-top: 65px;
+    
+}
+
+#design-by .design-container .icons-section .icon-box title{
+
+}
+
+
+
+/* LAPTOPS DEVICES */
+@media only screen and (max-width: 1215px) {
+   
+    #design-by .design-container .icons-section .refresh-circle {
+        left: 43%;
+    }
+
+
+
+
+}
+/* TABLETS DEVICES */
+@media only screen and (max-width: 1023px) {
+  
+
+    #design-by .design-container .icons-section .refresh-circle {
+        left: 43%;
+    }
+
+
+}
+
+@media only screen and (max-width: 1000px) {
+  
+
+    #design-by .design-container .icons-section .refresh-circle {
+        left: 42%;
+    }
+
+
+}
+
+@media only screen and (max-width: 860px) {
+  
+
+    #design-by .design-container .icons-section .refresh-circle {
+        left: 41%;
+    }
+
+
+}
+
+/* MOBILE DEVICES */
+@media only screen and (max-width: 767px) {
+   
+    #design-by .design-container .info-section {
+        width: 100%;
+
+    }
+
+    #design-by .design-container .icons-section {
+        width: 100%;
+    }
+
+    #design-by .design-container .icons-section .refresh-circle {
+        display: none;
+    }
+
+    #design-by .design-container .bg-container {
+        padding: 20px;
+    }
+
+
+
+
+}

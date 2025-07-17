@@ -1,0 +1,297 @@
+#top-jumbo {
+    padding: 0 0 400px;
+    font-family: 'Open Sans', sans-serif;
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #ffffff 0%, #ffffff 36%, #8948f2 76%, #e0a1df 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #ffffff 0%,#ffffff 36%,#8948f2 76%,#e0a1df 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #ffffff 0%,#ffffff 36%,#8948f2 76%,#e0a1df 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    }
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#top-jumbo .left-side {
+    width: 40%;
+    display: inline-block;
+    float: left;
+    
+}
+
+#top-jumbo .left-side .large-number {
+    font-size: 300px;
+    font-weight: 700;
+    opacity: .08;
+    color: #4c44c1;
+    position: relative;
+    left: -25px;
+    top:-10px;
+    z-index: 1;
+    
+}
+
+#top-jumbo .left-side .info-container {
+    position: relative;
+    top: -133px;
+    left: -5px;
+}
+
+#top-jumbo .left-side .info-container h1 {
+    color: #6066F2;
+    font-size: 4.3rem;
+    /* text-transform: capitalize; */
+    line-height: 1;
+    margin-bottom: 1.5rem;
+}
+
+#top-jumbo .left-side .info-container p {
+    color: #aaacaf;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 3rem;
+}
+
+#top-jumbo .left-side .info-container .email-area {
+    background: #fff;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 6px 10px;
+
+}
+
+#top-jumbo .left-side .info-container .email-area .fas {
+    font-size: 1.5rem;
+    position: relative;
+    top: 4px;
+    margin-left: 15px;
+    color: #D5E2EA;;
+}
+
+#top-jumbo .left-side .info-container .email-area input[type="email"] {
+    background:  white;
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    width: 250px;
+
+}
+
+#top-jumbo .left-side .info-container .email-area button {
+    background:  #6066F2;
+    padding: 23px 47px;
+    color: white;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    width: 130px;
+    height: 60px;
+}
+
+
+#top-jumbo .right-side {
+    width: 60%;
+    display: inline-block;
+    float: left;
+    padding: 0 40px;
+    
+}
+
+#top-jumbo .right-side img {
+    width: 100%;
+    position: relative;
+    top: -30px;
+ 
+}
+
+
+
+/* LAPTOPS DEVICES */
+@media only screen and (max-width: 1215px) {
+    #top-jumbo .left-side .info-container .email-area {
+        width: 100%;
+    }
+
+    #top-jumbo .left-side .info-container .email-area .fas {
+        position: relative;
+        top: 20px;
+        margin-left: 1%;
+        float: left;
+        width: 14%;
+        text-align: center;
+    }
+
+    #top-jumbo .left-side .info-container .email-area input[type="email"] {
+        width: 50%;
+        float: left;
+        position: relative;
+        top: 12px;
+    }
+
+    #top-jumbo .left-side .info-container .email-area button {
+        
+        padding: 23px 0;
+        font-size: 1rem;
+        width: 35%;
+        float: left;
+    }
+
+
+
+}
+/* TABLETS DEVICES */
+@media only screen and (max-width: 1023px) {
+  
+    #top-jumbo {
+        padding: 0 0 300px;
+        
+    }
+
+    #top-jumbo .left-side {
+        width: 40%;   
+    }
+
+    #top-jumbo .left-side .large-number {
+        font-size: 250px;
+    }
+
+    #top-jumbo .left-side .info-container {  
+        top: -112px;
+    }
+
+    #top-jumbo .left-side .info-container h1 {
+        font-size: 3.3rem;
+        
+    }
+
+    #top-jumbo .left-side .info-container p {
+        font-size: 1.2rem;
+    }
+
+    #top-jumbo .left-side .info-container .email-area {
+        width: 100%;
+    }
+
+    #top-jumbo .left-side .info-container .email-area .fas {
+        position: relative;
+        top: 20px;
+        margin-left: 1%;
+        float: left;
+        width: 14%;
+        text-align: center;
+    }
+
+    #top-jumbo .left-side .info-container .email-area input[type="email"] {
+        width: 50%;
+        float: left;
+        position: relative;
+        top: 12px;
+    }
+
+    #top-jumbo .left-side .info-container .email-area button {
+        
+        padding: 23px 0;
+        font-size: 1rem;
+        width: 35%;
+        float: left;
+    }
+
+    #top-jumbo .right-side {
+        width: 60%;
+
+    }
+
+    #top-jumbo .right-side img {
+        width: 100%;
+        position: relative;
+        top: 60px;
+        transform: scale(1.1, 1.1);
+        -ms-transform: scale(1.1, 1.1);
+        -webkit-transform: scale(1.1, 1.1);
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+  
+
+    /* #top-jumbo .left-side .info-container .email-area { */
+        width: 100%;
+
+}
+
+
+/* MOBILE DEVICES */
+@media only screen and (max-width: 767px) {
+  
+    #top-jumbo {
+        padding: 0 0 300px;
+        
+    }
+
+    #top-jumbo .left-side {
+        width: 100%;   
+    }
+
+    #top-jumbo .left-side .large-number {
+        font-size: 250px;
+    }
+
+    #top-jumbo .left-side .info-container {  
+        top: -112px;
+    }
+
+    #top-jumbo .left-side .info-container h1 {
+        font-size: 3.3rem;
+
+        
+    }
+
+    #top-jumbo .left-side .info-container p {
+        font-size: 1.2rem;
+    }
+
+
+    #top-jumbo .left-side .info-container .email-area {
+        width: 100%;
+    }
+
+    #top-jumbo .left-side .info-container .email-area .fas {
+        position: relative;
+        top: 20px;
+        margin-left: 1%;
+        float: left;
+        width: 14%;
+        text-align: center;
+    }
+
+    #top-jumbo .left-side .info-container .email-area input[type="email"] {
+        width: 50%;
+        float: left;
+        position: relative;
+        top: 12px;
+    }
+
+    #top-jumbo .left-side .info-container .email-area button {
+        
+        padding: 23px 0;
+        font-size: 1rem;
+        width: 35%;
+        float: left;
+    }
+
+    #top-jumbo .right-side {
+        width: 100%;
+
+    }
+    #top-jumbo .right-side img {
+         top: 0;
+    }
+
+
+
+
+}
