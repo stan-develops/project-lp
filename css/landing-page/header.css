@@ -104,3 +104,253 @@ header .header-buttons .orange-btn {
     
 
 }
+
+
+/* === Refined Header Responsive Styles (Float-based) === */
+
+/* Styles for screen widths between 767px and 468px */
+@media (max-width: 767px) and (min-width: 469px) {
+  .logo {
+    float: none;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .menu {
+    float: none;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .header-buttons {
+    float: none;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .header-buttons a {
+    display: inline-block;
+    margin: 8px 10px;
+    font-size: 0.95rem;
+    padding: 10px 16px;
+  }
+}
+
+/* Styles for screen widths below 468px */
+@media (max-width: 468px) {
+  .logo {
+    float: none;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .menu {
+    float: none;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .header-buttons {
+    float: none;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .header-buttons a {
+    display: block;
+    width: 180px;
+    margin: 20px auto;
+    font-size: 0.95rem;
+    padding: 14px 20px;
+  }
+
+  .header-buttons .fa-shopping-bag {
+    display: block;
+    margin-top: 6px;
+    font-size: 1.2rem;
+  }
+}
+
+
+
+/* === Adjustment: Move Buttons Below Menu on <1023px === */
+@media (max-width: 1023px) {
+  .logo {
+    float: none;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .menu {
+    float: none;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .header-buttons {
+    float: none;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+
+
+
+/* === Harmonized Spacing for Menu and Buttons (Below 1023px) === */
+@media (max-width: 1023px) {
+  .logo {
+    float: none;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .menu {
+    float: none;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .header-buttons {
+    float: none;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .header-buttons a {
+    display: inline-block;
+    margin: 8px 10px;
+    font-size: 0.95rem;
+    padding: 10px 16px;
+  }
+}
+
+
+
+/* === Alignment Centering for Logo, Menu, Buttons (Below 1023px) === */
+@media (max-width: 1023px) {
+  .logo {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .menu {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .header-buttons {
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+
+/* === Improved Spacing Between GALLERY and SUPPORT (Below 542px) === */
+@media (max-width: 542px) {
+  .menu a {
+    margin: 5px 14px;
+  }
+}
+
+
+
+/* === Center Buttons to Menu Line (Below 767px) === */
+@media (max-width: 767px) and (min-width: 469px) {
+  .header-buttons {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .header-buttons a {
+    display: inline-block;
+    margin: 8px 10px;
+    vertical-align: middle;
+  }
+}
+
+/* === Remove Shopping Bag Icon (Below 468px) === */
+@media (max-width: 468px) {
+  .header-buttons .fa-shopping-bag {
+    display: none;
+  }
+}
+
+
+
+/* === Split Menu into 2 Lines (Below 540px) === */
+@media (max-width: 540px) {
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px 30px;
+    line-height: 1.6;
+  }
+
+  .menu a {
+    width: 40%;
+    text-align: center;
+  }
+}
+
+/* === Center Buttons to Logo (Below 767px) === */
+@media (max-width: 767px) {
+  .header-buttons {
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .header-buttons a {
+    display: inline-block;
+    margin: 8px 10px;
+    vertical-align: middle;
+  }
+}
+
+
+
+/* === Center Buttons to Screen (Below 767px) === */
+@media (max-width: 767px) {
+  .header-buttons {
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .header-buttons a {
+    display: inline-block;
+    margin: 8px 10px;
+    font-size: 0.95rem;
+    padding: 10px 16px;
+  }
+}
+
+
+
+/* === Center Buttons to Screen (Below 540px) === */
+@media (max-width: 540px) {
+  .header-buttons {
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .header-buttons a {
+    display: block;
+    width: 180px;
+    margin: 15px auto;
+    font-size: 0.95rem;
+    padding: 12px 18px;
+  }
+}
